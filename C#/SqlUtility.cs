@@ -15,9 +15,7 @@ class SqlUtility
         string ExecuteProcedureScaler
         DataSet ExecuteProcedureDataSet
         DataTable ExecuteProcedureDataTable
-        SqlDataReader ExecuteProcedureReader
-
-        
+        SqlDataReader ExecuteProcedureReader 
     */
     SqlConnection con;
     SqlDataAdapter adap;
